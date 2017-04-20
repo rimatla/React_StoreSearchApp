@@ -1,0 +1,59 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Helvetica Neue' , Helvetica, Arial;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #3b3b3b;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    background: #2b2b2b;
+}
+
+#container {
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 800px;
+}
+
+table {
+    margin: 0 0 40px 0;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    display: table;
+}
+@media screen and (max-width: 580px) {
+    table {
+        display: block;
+    }
+}
+
+th {
+    font-weight: 900;
+    color: #ffffff;
+    background: #2980b9;
+}
+
+tr:nth-of-type(odd) {
+    background: #e9e9e9;
+}
+
+tr:nth-of-type(even) {
+    background: #f6f6f6;
+}
+
+td {
+    width: 300px;
+    text-align: center;
+    display: table-cell;
+    padding: 10px 0;
+}
+
+.onlyShow {
+    color: #ffffff;
+}
+
+.searchBar {
+    padding: 5px;
+}
